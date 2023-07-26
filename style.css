@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background: url(/amg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    border-radius: 12px;
+    flex-direction: column;
+    width: 27%;
+    height: 47%;
+    margin-top: 14%;
+    background-color: rgb(10, 250, 70);
+}
+
+.footer h1 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    margin-left: 25%;
+    color: rgb(207, 252, 7);
+}
+
+.footer input {
+    width: 250px;
+    margin-left: 15%;
+    height: 40px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    margin-top: 4%;
+    font-size: 16px;
+}
+.footer button {
+    width: 200px;
+    height: 35px;
+    margin-top: 7%;
+    margin-left: 22%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(207, 34, 22);
+    color: white;
+    font-size: 20px;
+}
+
+.ready {
+    background-color: rgb(230, 179, 38);
+    margin-top: 20%;
+    height: 25%;
+    width: 25%;
+}
+
+.ready p {
+    font-size: 27px;
+    margin-top: 5%;
+    margin-left: 26%;
+}
+.ready button {
+    margin-left: 30%;
+    
+    width: 150px;
+    height: 37px;
+    margin-top: 10%;
+    margin-left: 22%;
+    border: none;
+    background-color: rgb(22, 39, 190);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.footer a {
+    color: rgb(9, 5, 250);
+    margin-right: 30%;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.short {
+    width:100%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.short p{
+    color: white;
+    font-size: 20px;
+    margin-top: 14px;
+}
+@media(max-width:1025px){
+ 
+    .footer, .ready{
+        width: 50%;
+        height: 40%;
+     }
+}
+@media(max-width:430px){
+    section {
+        width: 100%;
+    }
+
+    .footer, .ready{
+        width: 100%;
+        height: 54%;
+     }
+}
